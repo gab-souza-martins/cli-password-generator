@@ -24,7 +24,7 @@ jobs:
               
       - name: Run tests
         run: |
-          pytest generator.py
+          pytest src/generator.py
 
       - name: Lint with flake8
         run: |
